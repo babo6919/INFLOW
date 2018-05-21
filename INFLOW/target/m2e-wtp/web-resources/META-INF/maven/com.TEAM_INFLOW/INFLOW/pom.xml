@@ -39,7 +39,12 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${org.springframework-version}</version>
 		</dependency>
-		
+		<!-- 이메일 인증 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-email</artifactId>
+			<version>1.2</version>
+		</dependency>
 		<!-- file upload -->
         <dependency>
             <groupId>commons-fileupload</groupId>
@@ -115,6 +120,7 @@
 			<artifactId>javax.inject</artifactId>
 			<version>1</version>
 		</dependency>
+				
 				
 		
 		<dependency>
